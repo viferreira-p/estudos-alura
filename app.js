@@ -3,5 +3,7 @@ let numeroSecreto = 5;
 let tentativa = prompt ('Escolha um número entre 1 e 10');
 
 if(tentativa == numeroSecreto){
-    console.log('Acertou miseravel (5)');
+    alert(`Você acertou o número secreto! ${numeroSecreto}`);
+} else {
+    alert('Você errou ):');
 }
